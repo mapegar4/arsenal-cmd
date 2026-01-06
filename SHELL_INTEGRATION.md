@@ -134,7 +134,7 @@ arsenal --print   # Just print the command
 
 - **Supported Shells**: Bash 4.0+, Zsh
 - **Tested On**: Linux (Debian, Ubuntu, Arch, Kali)
-- **Issue Tracker**: https://github.com/Orange-Cyberdefense/arsenal/issues/77
+- **Original Project Issue Tracker**: https://github.com/Orange-Cyberdefense/arsenal/issues/77
 
 ## Credits
 

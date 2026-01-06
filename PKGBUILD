@@ -6,11 +6,11 @@ pkgname=arsenal
 pkgver=1.2.1
 pkgrel=1
 pkgdesc='Arsenal is just a quick inventory and launcher for hacking programs'
-url='https://github.com/Orange-Cyberdefense/arsenal'
+url='https://github.com/mapegar4/arsenal-cmd'
 arch=('any')
 license=('GPL')
 depends=('python>=3.7')
-source=(${pkgname}::git+https://github.com/Orange-Cyberdefense/arsenal.git)
+source=(${pkgname}::git+https://github.com/mapegar4/arsenal-cmd.git)
 sha512sums=('SKIP')
 
 build() {
