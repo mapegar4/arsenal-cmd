@@ -51,8 +51,8 @@ arsenal
 
 - manually:
 ```
-git clone https://github.com/Orange-Cyberdefense/arsenal.git
-cd arsenal
+git clone https://github.com/mapegar4/arsenal-cmd.git
+cd arsenal-cmd
 python3 -m pip install -r requirements.txt
 ./run
 ```
@@ -187,7 +187,7 @@ arsenal --print    # Just print the command
 sysctl -w dev.tty.legacy_tiocsti=1
 ```
 
-More information in issue [#77](https://github.com/Orange-Cyberdefense/arsenal/issues/77)
+More information in original project issue [#77](https://github.com/Orange-Cyberdefense/arsenal/issues/77)
 
 
 ## Mindmap
