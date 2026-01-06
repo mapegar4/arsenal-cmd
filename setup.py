@@ -18,7 +18,7 @@ setup(
     url='https://github.com/mapegar4/arsenal-cmd',
     license='GPL-3.0',
     author='Guillaume Muh, mayfly',
-    author_email='no-reply@cerium.es',
+    author_email='no-reply@cerium.com',
     description='Arsenal is just a quick inventory, reminder and launcher for pentest commands. ',
     long_description=README,
     long_description_content_type='text/markdown',
