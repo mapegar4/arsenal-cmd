@@ -191,13 +191,6 @@ More information in original project issue [#77](https://github.com/Orange-Cyber
 
 
 ## Mindmap
-- Active directory mindmap
-  - Due to csp on github when you open the svg, we moved the AD mindmap and the source to this repository : [https://github.com/Orange-Cyberdefense/ocd-mindmaps](https://github.com/Orange-Cyberdefense/ocd-mindmaps)
-
-[https://orange-cyberdefense.github.io/ocd-mindmaps/img/pentest_ad_dark_2022_11.svg](https://orange-cyberdefense.github.io/ocd-mindmaps/img/pentest_ad_dark_2022_11.svg)
-
-- AD mindmap black version
-![](./mindmap/pentest_ad_black.png)
 
 - Exchange Mindmap (thx to @snovvcrash)
 ![](./mindmap/Pentesting_MS_Exchange_Server_on_the_Perimeter.png)
@@ -205,130 +198,27 @@ More information in original project issue [#77](https://github.com/Orange-Cyber
 - Active directory ACE mindmap
 ![](./mindmap/ACEs_xmind.png)
 
-## TODO cheatsheets 
+## Available Cheatsheets
 
-### reverse shell
-- [X] msfvenom
-- [X] php
-- [X] python
-- [X] perl
-- [X] powershell
-- [X] java
-- [X] ruby
+The project includes cheatsheets organized in the following categories:
 
-### whitebox analysis grep regex
-- [X] php
-- [X] nodejs
-- [X] hash
-
-### Tools
-
-#### smb
-- [X] enum4linux 
-- [X] smbmap
-- [ ] smbget     
-- [X] rpcclient
-- [ ] rpcinfo
-- [X] nbtscan
-- [X] impacket
-
-#### kerberos & AD
-- [X] impacket
-- [X] bloodhound
-- [X] rubeus
-- [ ] powerview
-- [ ] shadow credentials attack
-- [ ] samaccountname attack
-
-#### MITM
-- [X] mitm6
-- [X] responder
-
-#### Unserialize
-- [X] ysoserial
-- [ ] ysoserial.net
-
-### bruteforce & pass cracking
-- [X] hydra
-- [X] hashcat
-- [X] john
-
-#### scan
-- [X] nmap
-- [X] eyewitness
-- [X] gowitness
-
-#### fuzz    
-- [X] gobuster
-- [X] ffuf
-- [X] wfuzz
-
-#### DNS
-- [X] dig
-- [X] dnsrecon
-- [X] dnsenum
-- [X] sublist3r
-
-#### rpc
-- [ ] rpcbind
-
-#### netbios-ssn
-- [X] snmpwalk
-- [X] snmp-check
-- [X] onesixtyone
-
-#### sql
-- [X] sqlmap 
-
-#### oracle
-- [ ] oscanner
-- [ ] sqlplus
-- [ ] tnscmd10g
-
-#### mysql
-- [X] mysql
-
-#### nfs
-- [X] showmount
-
-#### rdp
-- [X] xfreerdp
-- [X] rdesktop
-- [ ] ncrack
-
-#### mssql
-- [X] sqsh
-
-#### winrm
-- [X] evilwinrm
-
-#### redis
-- [ ] redis-cli
-
-#### postgres
-- [X] psql
-- [ ] pgdump
-
-#### vnc
-- [X] vncviewer
-
-#### x11
-- [X] xspy
-- [X] xwd
-- [X] xwininfo
-
-#### ldap
-- [X] ldapsearch
-
-#### https
-- [ ] sslscan
-
-#### web 
-- [ ] burp
-- [X] nikto
-- [ ] tplmap
-
-#### app web
-- [X] drupwn
-- [X] wpscan
-- [ ] nuclei
+- **Archive**: 7z, binwalk, gzip, rar, tar, unblob, zip
+- **BruteForce**: hydra, wordlist tools (cewl, crunch)
+- **Cloud**: AWS
+- **Crypto**: GPG
+- **Databases**: Redis
+- **Files**: Download tools (bitsadmin, certutil, powershell), File servers
+- **Linux**: System commands, grep, sed, crontab, veracrypt
+- **Metasploit**: MSF, searchsploit
+- **Mobile**: Android tools (apktool, jadx, objection)
+- **Network**: Network tools, socat, Huawei
+- **Password Cracking**: hashcat, john, crack files
+- **Password Extraction**: LAPS, lazagne, mimikatz, procdump
+- **Protocol**: DNS, FTP, LDAP, MSSQL, MySQL, NetBIOS, NFS, POP, PostgreSQL, RDP, SMB, SMTP, SNMP, SSH, Telnet, VNC, WinRM, X11
+- **ReverseShell**: Netcat, reverse shells, web shells
+- **Scan**: nmap, eyewitness, gowitness, cve-bin-tool
+- **Services**: service, systemctl
+- **Tools**: docker, git, kubernetes
+- **Web**: Fuzzer (ffuf, gobuster, wfuzz), drupwn, wpscan, jwttool, openssl, tomcat
+- **Wifi**: Wifi tools
+- **Windows**: PowerShell, whitelisting, windows commands
